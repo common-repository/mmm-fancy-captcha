@@ -1,0 +1,150 @@
+
+		/*****************************************************************************************/
+		/*                                                                            			 */
+		/*                                                                            			 */
+		/*              				 If cats looked like frogs              				 */
+		/*				  we'd realize what nasty, cruel little bastards they are.   	 	     */
+		/*								      ... STYLE ...    	 	                  			 */
+		/*							  That's what people remember.   	 	                     */
+		/*                                                                            			 */
+		/*                                                                            			 */
+		/*          Please keep this stylesheet neat and clean so we can all be happy  		     */
+		/*                                                                            			 */
+		/*      				 Copyright (c) 2013 | All rights reserved  		    			 */
+		/*      	 			MultiMediaMonster | Renske van der Heijden  			 		 */
+		/*                                                                            			 */
+		/*                                                                            			 */
+		/*****************************************************************************************/
+		
+			/* general */
+			.wrap.fancy-captcha .small
+							{
+								font-size:						11px;
+								font-style:						italic;
+								font-weight:					normal;
+							}
+			.wrap.fancy-captcha em
+							{
+								color:							#F00;
+							}
+			/* table display */
+			.wrap.fancy-captcha .div-to-table
+							{
+								display:						table;
+								width:							100%;
+							}
+			.wrap.fancy-captcha .div-to-table .div-to-row
+							{
+								display:						table-row;
+							}
+			.wrap.fancy-captcha .div-to-table .div-to-row .div-to-cell
+							{
+								display:						table-cell;
+								padding:						5px 0 5px 0;
+								vertical-align:					top;
+							}
+			.wrap.fancy-captcha .div-to-table .div-to-row .div-to-cell:first-child
+							{
+								padding:						5px 20px 5px 0;
+							}
+			/* tabs links */
+			.wrap.fancy-captcha a:focus
+							{
+								box-shadow:						0 0 0 0 #000,0 0 0 0 rgba(255,255,255,0) !important;
+							}
+			/* tabs */
+			.wrap.fancy-captcha h3
+							{
+								margin:							0;
+								padding:						0;
+								font-size: 						18px;
+							}
+			.wrap.fancy-captcha .tab-help
+							{
+								border-bottom:					1px solid #ccc;
+								padding:						10px 0 10px 0;
+								font-size: 						14px;
+							}
+			.wrap.fancy-captcha .nav-tab-wrapper-content 
+							{
+								background:						#fff;
+								padding: 						20px;
+								margin:							5px 0 5px 0;
+								border:							1px solid #ccc;
+							}
+			.wrap.fancy-captcha .nav-tab-wrapper-content .form-table
+							{
+								margin:							0;
+							}
+			.wrap.fancy-captcha .nav-tab-wrapper-content .form-table tr th
+							{
+								width:							275px;
+							}
+			.wrap.fancy-captcha .nav-tab-wrapper-content .form-table tr td,
+			.wrap.fancy-captcha .nav-tab-wrapper-content .form-table tr th
+							{
+								border-bottom:					1px solid #ccc;
+								padding: 						10px 20px 10px 0;
+								vertical-align:					top;
+							}
+			.wrap.fancy-captcha .nav-tab-wrapper-content .form-table tr td:last-child,
+			.wrap.fancy-captcha .nav-tab-wrapper-content .form-table tr th:last-child
+							{
+								padding: 						10px 0 10px 0;
+							}
+							
+			.wrap.fancy-captcha .nav-tab-wrapper-content .form-table tr:last-child td,
+			.wrap.fancy-captcha .nav-tab-wrapper-content .form-table tr:last-child th,
+			.wrap.fancy-captcha .tab-help:last-child
+							{
+								border-bottom:					0;
+							}
+			.wrap.fancy-captcha .nav-tab-wrapper-content .nav-tab-content
+							{
+								display:						none;
+							}
+			.wrap.fancy-captcha .nav-tab-wrapper-content .nav-tab-content.nav-tab-active-content
+							{
+								display:						block;
+							}
+			.wrap.fancy-captcha p.submit
+							{
+								margin:							0;
+								padding:						0;
+							}
+			.wrap.fancy-captcha textarea
+							{
+								width:							100%;
+								min-height:						150px;
+							}
+			.wrap.fancy-captcha form.reset
+							{
+								float:							right;
+								margin-top:						-28px;
+							}
+			
+			.wrap.fancy-captcha img.captcha-image
+							{
+								vertical-align:					middle;
+								margin:							5px 3px 10px 0;
+							}
+			.wrap.fancy-captcha img.captcha-image.gray
+							{
+								-webkit-filter:					grayscale(100%);
+								-moz-filter:					grayscale(100%);
+								-ms-filter:						grayscale(100%);
+								-o-filter:						grayscale(100%);
+								filter:							grayscale(100%);
+								filter:							url(filters.svg#grayscale); /* Firefox 4+ */
+								filter:							gray; /* IE 6-9 */
+								opacity:						0.5;
+							}
+			/* menu */
+			a.menu-icon-mmm_fc .wp-menu-image.dashicons-before
+							{
+								display:						table-cell;
+							}
+			a.menu-icon-mmm_fc .wp-menu-name
+							{
+								display:						table-cell;
+							}

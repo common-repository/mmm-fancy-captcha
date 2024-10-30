@@ -1,0 +1,185 @@
+
+		/*********************************************************************************************/
+		/*                                                                            				*/
+		/*                                                                            				*/
+		/*              		 WIE EEN WIJF TROUWT OM HAAR SCHOON LIJF 	     	                */
+		/*              	 	  VERLIEST HET LIJF EN HOUDT HET WIJF   	 	                    */
+		/*                                                                            				*/
+		/*               		  in het huwelijk (en op de werkvloer)     		                  	*/
+		/*      		  is niet alleen lichamelijk schoonheid (een mooi ontwerp)  		        */
+		/*          		     van belang (maar ook een net stylesheet)    		                */
+		/*                                                                            				*/
+		/*      		 01 janurai 2010 | Renske van der Heijden | Vactik Multimedia  		        */
+		/*                                                                            				*/
+		/*                                                                            				*/
+		/*********************************************************************************************/
+
+		/* //////////////////////////////////////////////////////////////////////////////////////////*/
+		/* 
+		/*  CAPTCHA
+		/* 
+		/* //////////////////////////////////////////////////////////////////////////////////////////*/
+		
+			.fancy-captcha-container .small
+							{
+								font-size:						11px;
+							}
+			.fancy-captcha-container .small .replace
+							{
+								text-decoration:				underline;
+								min-width: 						15px;
+								display: 						inline-block;
+							}
+			.fancy-captcha-container .small .replace .fancy-captcha-loader
+							{
+								height: 						15px;
+								width: 							15px;
+								margin-bottom: 					-3px;
+								position:						relative;
+								display: 						inline-block;
+								-webkit-animation: 				spin 1s ease-in-out infinite;
+								-moz-animation: 				spin 1s ease-in-out infinite;
+								animation: 						spin 1s ease-in-out infinite;
+								content: 						"";
+								background: 					url(../../images/frontend/loader.svg) center center;
+								background-size:				cover;
+								text-align: 					center;
+								font-size: 						15px;
+							}
+			.fancy-captcha-container .fancy-captcha-container-ajax
+							{
+								height: 						100px;
+							}
+			.fancy-captcha-container .fancy-captcha-container-ajax .content
+							{
+								width:							100%;
+								height: 						100px;
+								display:						table;
+							}
+			.fancy-captcha-container .fancy-captcha-container-ajax .content .left
+							{
+								display:						table-cell;
+								vertical-align:					middle;
+								width: 							210px; 
+								vertical-align:					middle;
+								background-image:				url(../../images/frontend/border-middle.gif);
+								background-repeat:				repeat-x;
+								background-position:			left center;
+							}
+			.fancy-captcha-container .fancy-captcha-container-ajax .content .left .fancy-captcha-loader
+							{
+								background-color:				#fff;
+								position:						relative;
+								float:							left;
+								width:							100%;
+								height:							100%;
+								background-image:				url(../../images/frontend/border-middle.gif);
+								background-repeat:				repeat-x;
+								background-position:			left center;
+							}
+			.fancy-captcha-container .fancy-captcha-container-ajax .content .left .fancy-captcha-loader:before 
+							{
+								height: 						26px;
+								width: 							26px;
+								position: 						absolute;
+								top: 							50%;
+								left: 							50%;
+								margin-left:	 				-13px;
+								margin-top: 					-13px;
+								display: 						block;
+								-webkit-animation: 				spin 1s ease-in-out infinite;
+								-moz-animation: 				spin 1s ease-in-out infinite;
+								animation: 						spin 1s ease-in-out infinite;
+								content: 						"";
+								background: 					url(../../images/frontend/loader.svg) center center;
+								background-size:				cover;
+								text-align: 					center;
+								font-size: 						26px;
+							}
+			.fancy-captcha-container .fancy-captcha-container-ajax .content .right
+							{
+								display:						table-cell;
+								vertical-align:					middle;
+								background-color:				#f4f4f4;
+								border:							1px solid #ececec;
+								-webkit-border-radius: 			10px;
+								-moz-border-radius: 			10px;
+								border-radius: 					10px;
+							}	
+			.fancy-captcha-container .fancy-captcha-container-ajax .content .right .arrow
+							{
+								background-image:				url(../../images/frontend/arrow-middle.gif);
+								background-repeat:				no-repeat;
+								background-position:			right center;
+								width:							55%;
+								height:							100%;
+							}						
+			.fancy-captcha-container .fancy-captcha-container-ajax .content .left ul
+							{
+								list-style:						none;
+								margin: 						0; 
+								padding: 						0;
+								margin-left:					10px;
+							}			
+			.fancy-captcha-container .fancy-captcha-container-ajax .content.loading ul
+							{
+								display:						none;
+							}
+			.fancy-captcha-container .fancy-captcha-container-ajax .content .left ul li 
+							{
+								float: 							left; 
+								margin: 						0; 
+								padding: 						0;
+							}
+			.fancy-captcha-container .fancy-captcha-container-ajax .content .left ul li img.gray
+							{
+								-webkit-filter:					grayscale(100%);
+								-moz-filter:					grayscale(100%);
+								-ms-filter:						grayscale(100%);
+								-o-filter:						grayscale(100%);
+								filter:							grayscale(100%);
+								filter:							url(filters.svg#grayscale); /* Firefox 4+ */
+								filter:							gray; /* IE 6-9 */
+							}
+			.fancy-captcha-container .fancy-captcha-container-ajax ul li.selectable
+							{
+								cursor: 						pointer; 
+								z-index: 						102;
+							}
+			/* error */
+			
+			.fancy-captcha-container-error 
+							{
+								display:							none;
+								padding: 							10px 10px 10px 50px;
+								margin: 							10px 0 10px 0;
+								border-radius: 						0 0 10px 10px;
+								-moz-border-radius: 				0 0 10px 10px;
+								-webkit-border-radius:				0 0 10px 10px;
+								-khtml-border-radius: 				0 0 10px 10px;
+								position: 							relative;
+								background-color: 					#f4f4f4;
+								color: 								#5b5b5b;
+								border: 							1px solid #e5e5e5;
+								border-top: 						3px solid #B81C23;
+								list-style: 						outside none none;
+								width: 								auto;
+							}
+			.fancy-captcha-container-error li 
+							{
+								list-style: 						none;
+								padding: 							0;
+								margin: 							0;
+							}
+			.fancy-captcha-container-error li:before
+							{
+								font: 								400 20px/20px dashicons;
+								speak:								none;
+								-webkit-font-smoothing: 			antialiased;
+								display: 							inline-block;
+								position: 							absolute;
+								top: 								10px;
+								left: 								20px;
+								content: 							"\f348";
+								color: 								#b81c23;
+							}

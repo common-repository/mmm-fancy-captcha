@@ -1,0 +1,369 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MMM Fancy Captcha v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-05-05 06:26+0200\n"
+"PO-Revision-Date: 2016-05-05 06:26+0200\n"
+"Last-Translator: Renske van der Heijden <renske@multimediamonster.nl>\n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: languages\n"
+"X-Poedit-SearchPath-1: .\n"
+
+# @ mmm-fc-translated
+#: classes/class-mmm-copyright.php:15
+msgid "Hi there!"
+msgstr "Hoi!"
+
+# @ mmm-fc-translated
+#: classes/class-mmm-copyright.php:25
+#, php-format
+msgid ""
+"How nice you started using my plugin! I really have no terms or conditions "
+"of using it. You can just install it. You don&#8217;t have to mention "
+"anything or link to my page or other weird stuff.<br /><br />If you "
+"encounter something where your mind goes &#8220;ehmmm that&#8217;s not "
+"right&#8221; (I can&#8217;t imagine it happening but you never know) please "
+"contact me. You can <a href='mailto:%s'>e-mail me</a> or send me a message "
+"through the contact form on <a href='http://%s' target='_blank'>my website</"
+"a>.<br /><br /><b>With love and cookies %s</b><br />(%s)<br /><a "
+"href='http://%s' target='_blank'>%s</a>"
+msgstr ""
+"Wat leuk dat je mijn plugin bent gaan gebruiken! Ik heb geen voorwaarden, "
+"eisen of verwachtingen van jou zodat je deze plugin mag gaan gebruiken. Je "
+"kunt hem gewoon installeren. Je hoeft me niet op je website te benoemen, een "
+"link te plaatsen of andere rare dingen.<br /><br />Mocht je nou iets "
+"tegenkomen waarvan je denkt &#8220;ehmmm dat klopt niet helemaal&#8221; (ik "
+"kan me niet voorstellen dat dit gebeurt maar je weet maar nooit) neem dan "
+"even contact met me op. Je kunt me een <a href='mailto:%s'>mailtje</a> "
+"sturen of een berichtje achterlaten via het contactformulier op <a "
+"href='http://%s' target='_blank'>mijn website</a>.<br /><br /><b>Met liefde "
+"en koekjes %s</b><br />(%s)<br /><a href='http://%s' target='_blank'>%s</a>"
+
+# @ mmm-fc-translated
+#: classes/class-mmm-fc-admin-menu-items.php:24
+#: classes/class-mmm-fc-settings.php:15
+msgid "Settings"
+msgstr "Instellingen"
+
+# @ mmm-fc-translated
+#: classes/class-mmm-fc-admin-pages.php:77
+msgid "Reset"
+msgstr "Opnieuw instellen"
+
+# @ mmm-fc-translated
+#: classes/class-mmm-fc-register.php:167
+msgid "Are you sure you want to reset the plugin? This is irreversible."
+msgstr ""
+"Weet je zeker dat je de plugin opnieuw wilt instellen? Dit is niet terug te "
+"draaien."
+
+# @ mmm-fc-translated
+#: classes/class-mmm-fc-settings.php:18 classes/class-mmm-fc-settings.php:62
+msgid "Configuration"
+msgstr "Configuratie"
+
+# @ mmm-fc-translated
+#: classes/class-mmm-fc-settings.php:19 classes/class-mmm-fc-settings.php:124
+#: classes/class-mmm-fc-settings.php:133
+msgid "Help"
+msgstr "Help"
+
+# @ mmm-fc-translated
+#: classes/class-mmm-fc-settings.php:39
+msgid "the house"
+msgstr "het huis"
+
+# @ mmm-fc-translated
+#: classes/class-mmm-fc-settings.php:41
+msgid "the heart"
+msgstr "het hart"
+
+# @ mmm-fc-translated
+#: classes/class-mmm-fc-settings.php:42
+msgid "the circle"
+msgstr "de cirkel"
+
+# @ mmm-fc-translated
+#: classes/class-mmm-fc-settings.php:43
+msgid "the square"
+msgstr "het vierkant"
+
+# @ mmm-fc-translated
+#: classes/class-mmm-fc-settings.php:44
+msgid "the triagle"
+msgstr "de driehoek"
+
+# @ mmm-fc-translated
+#: classes/class-mmm-fc-settings.php:45
+msgid "the star"
+msgstr "de ster"
+
+# @ mmm-fc-translated
+#: classes/class-mmm-fc-settings.php:63
+#, php-format
+msgid ""
+"This section contains configuration settings for setting up %s plugin. This "
+"plugin was custom build for <a href=\"http://www.switchingacademy.nl/\" "
+"target=\"_blank\">Swtiching Academy</a>, a website based on a Woocommerce "
+"webshop with Ninja Forms. If you have any questions that you cannot find on "
+"the help-tab please send me an <a href=\"mailto:%s\">e-mail</a>."
+msgstr ""
+"In deel deel kun je de instellingen van %s plugin configureren. De plugin is "
+"gebouwd voor <a href=\"http://www.switchingacademy.nl/\" target=\"_blank"
+"\">Swtiching Academy</a>, een website gebaseerd op een Woocommerce webshop "
+"met Ninja Forms. Als je vragen hebt die je niet in op de helpt-tab kunt "
+"vinden stuur me dan een <a href=\"mailto:%s\">e-mail</a>."
+
+# @ mmm-fc-translated
+#: classes/class-mmm-fc-settings.php:68
+msgid ""
+"Add captcha to ...<br /><span class=\"small\">Insert the selectors that we "
+"need to search within. You may use multiple selectors seperated by a comma "
+"(,).</span>"
+msgstr ""
+"Voeg de captcha toe aan ...<br /><span class=\"small\">Voeg hier de selector "
+"toe waarin de plugin moet zoeken. Je mag meerdere selectors gebruiken "
+"gescheiden door een komma (,).</span>"
+
+# @ mmm-fc-translated
+#: classes/class-mmm-fc-settings.php:74
+msgid ""
+"and insert ...<br /><span class=\"small\">What is the position of the "
+"captcha?</span>"
+msgstr ""
+"en voeg toe ...<br /><span class=\"small\">Op welke positie wil je de "
+"captcha hebben?</span>"
+
+# @ mmm-fc-translated
+#: classes/class-mmm-fc-settings.php:79
+msgid "before"
+msgstr "voor"
+
+# @ mmm-fc-translated
+#: classes/class-mmm-fc-settings.php:80
+msgid "after"
+msgstr "na"
+
+#: classes/class-mmm-fc-settings.php:85
+#, php-format
+msgid ""
+"Input label<br /><span class=\"small\">Place %x% on the spot where the shape "
+"text should come.</span>"
+msgstr ""
+"Input text<br /><span class=\"small\">Plaats %x% on op de plek waar de text "
+"van de vorm moet komen.</span>"
+
+#: classes/class-mmm-fc-settings.php:86
+msgid ""
+"Are you a robot? <span class=\"required\">*</span><br /><span class=\"small"
+"\">drag %x% into the rectangle</span>"
+msgstr ""
+"Ben je een robot? <span class=\"required\">*</span><br /><span class=\"small"
+"\">sleep %x% in het vlak</span>"
+
+#: classes/class-mmm-fc-settings.php:91
+#, php-format
+msgid ""
+"Input label mobile<br /><span class=\"small\">Place %x% on the spot where "
+"the shape text should come.</span>"
+msgstr ""
+"Input text mobiel<br /><span class=\"small\">Plaats %x% on op de plek waar "
+"de text van de vorm moet komen.</span>"
+
+#: classes/class-mmm-fc-settings.php:92
+msgid ""
+"Are you a robot? <span class=\"required\">*</span><br /><span class=\"small"
+"\">click on %x%</span>"
+msgstr ""
+"Ben je een robot? <span class=\"required\">*</span><br /><span class=\"small"
+"\">klik op %x%</span>"
+
+#: classes/class-mmm-fc-settings.php:100
+#, php-format
+msgid ""
+"Custom shapes?<br /><span class=\"small\">The plugin uses the following "
+"standard shapes: %s. Need more help to change them? Check the help-tab.</"
+"span>"
+msgstr ""
+"Eigen vormen?<br /><span class=\"small\">De plugin gebruikt de volgende "
+"standaard vormen: %s. Meer hulp nodig bij veranderen? Klik op de help-tab.</"
+"span>"
+
+#: classes/class-mmm-fc-settings.php:107
+msgid ""
+"Error empty<br /><span class=\"small\">The error to display if the captcha "
+"is empty.</span>"
+msgstr ""
+"Foutmelding leeg<br /><span class=\"small\">De foutmelding die getoond moet "
+"worden wanneer de captcha niet in ingevuld.</span>"
+
+# @ mmm-fc-translated
+#: classes/class-mmm-fc-settings.php:108
+msgid "You forgot to tell me if you are a robot?"
+msgstr "Je bent vergeten me te vertellen of je een robot bent?"
+
+#: classes/class-mmm-fc-settings.php:113
+msgid ""
+"Error wrong<br /><span class=\"small\">The error to display if the captcha "
+"is incorrect.</span>"
+msgstr ""
+"Foutmelding verkeerd<br /><span class=\"small\">De foutmelding die getoond "
+"moet worden wanneer de captcha niet juist is.</span>"
+
+# @ mmm-fc-translated
+#: classes/class-mmm-fc-settings.php:114
+msgid "Seems like you are a robot or just not that good with shapes?"
+msgstr "Je bent een robot of gewoon slecht met vormpjes?"
+
+# @ mmm-fc-translated
+#: classes/class-mmm-fc-settings.php:125
+msgid "How does this work?"
+msgstr "Hoe werkt dit?"
+
+#: classes/class-mmm-fc-settings.php:134
+#, php-format
+msgid ""
+"<b>Add captcha to ...</b><br />Type the selectors you want to use to to add "
+"the captcha. This needs to be an element within a form. If you use captcha "
+"outside a form, it will be added, but not checked (because there will be no "
+"$_POST action). If you use a selector like &#8216;form input&#8217; tags all "
+"the input elements of the form will appended/prepended with the captcha. So "
+"use wisely. A good example (with Woocommerce) would be &#8216;.woocommerce ."
+"comment-respond p.comment-form-comment&#8217;. In this case only the review "
+"textarea paragraph gets appended/prepended. You can add multiple selectors "
+"by seperating them by a comma (,).<br /><br /><b>and insert ...</b><br /"
+">Well ... before or after elements?<br /><br /><b>Custom shapes?</b><br /"
+">This is a little bit more difficult but not rocketscience. The plugin uses "
+"the following standard shapes: %s. If you want to change these you can do "
+"one of two things.<br /><br /><u>Option 1: overwrite the standard images</"
+"u><br />Create a folder in your theme named images/fancy-captcha/ and upload "
+"your own images that look like the standard shapes (else the names would be "
+"really silly). The image types should be .png files and the image names "
+"should be the same as the originals (item-0.png (the base, not show but "
+"necessary) to item-5.png).<br /><u>Option 2: completely create your own</"
+"u><br />Exectute option 1 with the exception that the images do not have to "
+"look like the standard shapes. On the settings tab as the last option you "
+"can change the names. For example \"red square\" or \"yellow\" circle."
+msgstr ""
+"<b>Voeg captcha toe aan ...</b><br />Type de selectors waarin de plugin moet "
+"zoeken naar de elementen om de captcha aan toe te voegen. Dit dient een "
+"element in een form tag te zijn. Als je element daarbuiten kiest wordt de "
+"captcha wel toegevoegd maar niet gecontroleerd (omdat er geen $_POST actie "
+"is). Wanneer je een selector als &#8216;form input&#8217;  gebruikt worden "
+"komt de captcha voor/achter alle input elementen in alle formulieren. Wees "
+"dus voorzichtig. Een goed voorbeeld (met Woocommerce) zou zijn &#8216;."
+"woocommerce .comment-respond p.comment-form-comment&#8217;. In dit gevalt "
+"wordt alleen de review textveld paragraaf gebruikt voor de captcha. Je kunt "
+"meerdere selectors gebruiken gescheiden door een komma (,).<br /><br /><b>en "
+"voeg toe ...</b><br />Ehm ... ervoor of erna?<br /><br /><b>Eigen vormen?</"
+"b><br />Een klein beetje moeilijker maar nog steeds geen rocketscience. De "
+"plugin gebruikt standaard vormen: %s. Als je deze wilt veranderen kun je 2 "
+"dingen doen.<br /><br /><u>Optie 1: overschrijf de standaard vormen</u><br /"
+">Creeer een folder in je thema genaamd images/fancy-captcha/ en upload en "
+"upload je eigen vormen die lijken op de standaard plaatjes (anders zou het "
+"er een beetje raar uitzien). De plaatjes dienen .png bestanden te zijn en de "
+"bestandsnamen hetzelfde als de standaarden (item-0.png (de basis, word niet "
+"getoond maar wel benodigd) tot item-5.png).<br /><u>Optie 2: maak een "
+"compleet eigen captcha</u><br />Die alles uit optie 1 met de uitzondering "
+"dat de plaatjes niet op de standaarden hoeven te lijken. Bij instellingen "
+"kun je de namen veranderen. Bijvoorbeeld \"rood vierkant\" of  \"gele cirkel"
+"\"."
+
+# @ mmm-fc-translated
+#: classes/class-mmm-fc-settings.php:221
+msgid "Settings resetted."
+msgstr "Instellingen zijn opnieuw ingesteld."
+
+#: classes/class-mmm-fc-settings.php:355
+msgid "Original:"
+msgstr "Origineel:"
+
+# @ mmm-fc-translated
+#~ msgid ""
+#~ "Are you a robot? <span class=\"required\">*</span><br /><span class="
+#~ "\"small\">drag <span class=\"replace\"><span class=\"fancy-captcha-loader"
+#~ "\"></span></span> into the rectangle</span>"
+#~ msgstr ""
+#~ "Ben je een robot? <span class=\"required\">*</span><br /><span class="
+#~ "\"small\">sleep <span class=\"replace\"><span class=\"fancy-captcha-loader"
+#~ "\"></span></span> naar het vlak</span>"
+
+#~ msgid ""
+#~ "Custom shapes?<br /><span class=\"small\">The plugin uses the following "
+#~ "standard shapes: "
+#~ msgstr ""
+#~ "Eigen vormen?<br /><span class=\"small\">De plugin gebruikt de volgende "
+#~ "standaard vormen: "
+
+# @ mmm-fc-translated
+#~ msgid ""
+#~ "<b>Add captcha to ...</b><br />Type the selectors you want to use to to "
+#~ "add the captcha. This needs to be an element within a form. If you use "
+#~ "captcha outside a form, it will be added, but not checked (because there "
+#~ "will be no $_POST action). If you use a selector like &#8216;form "
+#~ "input&#8217; tags all the input elements of the form will appended/"
+#~ "prepended with the captcha. So use wisely. A good example (with "
+#~ "Woocommerce) would be &#8216;.woocommerce .comment-respond p.comment-form-"
+#~ "comment&#8217;. In this case only the review textarea paragraph gets "
+#~ "appended/prepended. You can add multiple selectors by seperating them by "
+#~ "a comma (,).<br /><br /><b>and insert ...</b><br />Well ... before or "
+#~ "after elements?<br /><br /><b>Custom texts?</b><br />This option is only "
+#~ "available in the extended version, you can buy this for a small price at "
+#~ "<a href=\"%s\" target=\"_blank\">%s</a>.<br /><br />With this option you "
+#~ "can change the label and error texts.<br /><br /><b>Custom shapes?</"
+#~ "b><br />Also this option is only available in the extended version, you "
+#~ "can buy this for a small price at <a href=\"%s\" target=\"_blank\">%s</"
+#~ "a><br /><br />This is a little bit more difficult but not rocketscience. "
+#~ "The plugin uses the following standard shapes: %s. If you want to change "
+#~ "these you can do one of two things.<br /><br /><u>Option 1: overwrite the "
+#~ "standard images</u><br />Create a folder in your theme named images/fancy-"
+#~ "captcha/ and upload your own images that look like the standard shapes "
+#~ "(else the names would be really silly). The image types should be .png "
+#~ "files and the image names should be the same as the originals (item-0.png "
+#~ "(the base, not show but necessary) to item-5.png).<br /><u>Option 2: "
+#~ "completely create your own</u><br />Exectute option 1 with the exception "
+#~ "that the images do not have to look like the standard shapes. On the "
+#~ "settings tab as the last option you can change the names. For example "
+#~ "\"red square\" or \"yellow\" circle."
+#~ msgstr ""
+#~ "<b>Voeg captcha toe aan ...</b><br />Type de selectors waarin de plugin "
+#~ "moet zoeken naar de elementen om de captcha aan toe te voegen. Dit dient "
+#~ "een element in een form tag te zijn. Als je element daarbuiten kiest "
+#~ "wordt de captcha wel toegevoegd maar niet gecontroleerd (omdat er geen "
+#~ "$_POST actie is). Wanneer je een selector als &#8216;form input&#8217;  "
+#~ "gebruikt worden komt de captcha voor/achter alle input elementen in alle "
+#~ "formulieren. Wees dus voorzichtig. Een goed voorbeeld (met Woocommerce) "
+#~ "zou zijn &#8216;.woocommerce .comment-respond p.comment-form-"
+#~ "comment&#8217;. In dit gevalt wordt alleen de review textveld paragraaf "
+#~ "gebruikt voor de captcha. Je kunt meerdere selectors gebruiken gescheiden "
+#~ "door een komma (,).<br /><br /><b>en voeg toe ...</b><br />Ehm ... ervoor "
+#~ "of erna?<br /><br /><b>Eigen teksten</b><br />Deze optie (en andere) is "
+#~ "alleen beschikbaar in de extended versie, deze kun je voor een kleine "
+#~ "bijdrage kopen op <a href=\"%s\" target=\"_blank\">%s</a>.<br /><br />Met "
+#~ "deze optie kun je de label tekst en tekst van de foutmeldingen aanpassen."
+#~ "<br /><br /><b>Eigen vormen?</b><br />Ook deze optie (en andere) is "
+#~ "alleen beschikbaar in de extended versie, deze kun je voor een kleine "
+#~ "bijdrage kopen op <a href=\"%s\" target=\"_blank\">%s</a><br /><br />Een "
+#~ "klein beetje moeilijker maar nog steeds geen rocketscience. De plugin "
+#~ "gebruikt standaard vormen: %s. Als je deze wilt veranderen kun je 2 "
+#~ "dingen doen.<br /><br /><u>Optie 1: overschrijf de standaard vormen</"
+#~ "u><br />Creeer een folder in je thema genaamd images/fancy-captcha/ en "
+#~ "upload en upload je eigen vormen die lijken op de standaard plaatjes "
+#~ "(anders zou het er een beetje raar uitzien). De plaatjes dienen .png "
+#~ "bestanden te zijn en de bestandsnamen hetzelfde als de standaarden "
+#~ "(item-0.png (de basis, word niet getoond maar wel benodigd) tot item-5."
+#~ "png).<br /><u>Optie 2: maak een compleet eigen captcha</u><br />Die alles "
+#~ "uit optie 1 met de uitzondering dat de plaatjes niet op de standaarden "
+#~ "hoeven te lijken. Bij instellingen kun je de namen veranderen. "
+#~ "Bijvoorbeeld \"rood vierkant\" of  \"gele cirkel\"."
